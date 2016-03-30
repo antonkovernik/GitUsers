@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2459381CAB0D170092F8C5 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2459371CAB0D170092F8C5 /* ImageManager.swift */; };
+		BB24593A1CAB15BD0092F8C5 /* AvatarPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2459391CAB15BD0092F8C5 /* AvatarPreviewViewController.swift */; };
+		BB24593C1CAB182B0092F8C5 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24593B1CAB182B0092F8C5 /* Animator.swift */; };
 		BBBC39811CAA924600622957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39801CAA924600622957 /* AppDelegate.swift */; };
 		BBBC39831CAA924600622957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39821CAA924600622957 /* ViewController.swift */; };
 		BBBC39861CAA924600622957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBC39841CAA924600622957 /* Main.storyboard */; };
 		BBBC39881CAA924600622957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBC39871CAA924600622957 /* Assets.xcassets */; };
 		BBBC398B1CAA924600622957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBC39891CAA924600622957 /* LaunchScreen.storyboard */; };
+		BBBC39931CAA963800622957 /* GitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39921CAA963800622957 /* GitUser.swift */; };
+		BBBC39951CAA96C600622957 /* GitUsersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39941CAA96C600622957 /* GitUsersDataSource.swift */; };
+		BBBC39971CAA994400622957 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39961CAA994400622957 /* DataManager.swift */; };
+		BBBC39991CAAB14200622957 /* ChunkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39981CAAB14200622957 /* ChunkManager.swift */; };
+		BBBC399B1CAAB29900622957 /* GitApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC399A1CAAB29900622957 /* GitApiManager.swift */; };
+		BBBC399D1CAAB4A200622957 /* GitJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC399C1CAAB4A200622957 /* GitJSONParser.swift */; };
+		BBBC399F1CAAB52B00622957 /* GitDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC399E1CAAB52B00622957 /* GitDataProvider.swift */; };
+		BBBC39A11CAACDF300622957 /* GitOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC39A01CAACDF300622957 /* GitOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB2459371CAB0D170092F8C5 /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		BB2459391CAB15BD0092F8C5 /* AvatarPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarPreviewViewController.swift; sourceTree = "<group>"; };
+		BB24593B1CAB182B0092F8C5 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		BBBC397D1CAA924500622957 /* GitHubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBC39801CAA924600622957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBC39821CAA924600622957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,14 @@
 		BBBC39871CAA924600622957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBC398A1CAA924600622957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBBC398C1CAA924600622957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBC39921CAA963800622957 /* GitUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitUser.swift; sourceTree = "<group>"; };
+		BBBC39941CAA96C600622957 /* GitUsersDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitUsersDataSource.swift; sourceTree = "<group>"; };
+		BBBC39961CAA994400622957 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BBBC39981CAAB14200622957 /* ChunkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChunkManager.swift; sourceTree = "<group>"; };
+		BBBC399A1CAAB29900622957 /* GitApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitApiManager.swift; sourceTree = "<group>"; };
+		BBBC399C1CAAB4A200622957 /* GitJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitJSONParser.swift; sourceTree = "<group>"; };
+		BBBC399E1CAAB52B00622957 /* GitDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitDataProvider.swift; sourceTree = "<group>"; };
+		BBBC39A01CAACDF300622957 /* GitOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB24593D1CAB1D3E0092F8C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC39821CAA924600622957 /* ViewController.swift */,
+				BB2459391CAB15BD0092F8C5 /* AvatarPreviewViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB24593E1CAB1D4C0092F8C5 /* Trasitions */ = {
+			isa = PBXGroup;
+			children = (
+				BB24593B1CAB182B0092F8C5 /* Animator.swift */,
+			);
+			name = Trasitions;
+			sourceTree = "<group>";
+		};
+		BB24593F1CAB1D5A0092F8C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB2459371CAB0D170092F8C5 /* ImageManager.swift */,
+				BBBC39981CAAB14200622957 /* ChunkManager.swift */,
+				BBBC399E1CAAB52B00622957 /* GitDataProvider.swift */,
+				BBBC39941CAA96C600622957 /* GitUsersDataSource.swift */,
+				BBBC399A1CAAB29900622957 /* GitApiManager.swift */,
+				BBBC39A01CAACDF300622957 /* GitOperations.swift */,
+				BBBC399C1CAAB4A200622957 /* GitJSONParser.swift */,
+				BBBC39921CAA963800622957 /* GitUser.swift */,
+				BBBC39961CAA994400622957 /* DataManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		BBBC39741CAA924500622957 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				BBBC39801CAA924600622957 /* AppDelegate.swift */,
-				BBBC39821CAA924600622957 /* ViewController.swift */,
+				BB24593D1CAB1D3E0092F8C5 /* ViewControllers */,
+				BB24593E1CAB1D4C0092F8C5 /* Trasitions */,
+				BB24593F1CAB1D5A0092F8C5 /* Model */,
 				BBBC39841CAA924600622957 /* Main.storyboard */,
 				BBBC39871CAA924600622957 /* Assets.xcassets */,
 				BBBC39891CAA924600622957 /* LaunchScreen.storyboard */,
@@ -135,8 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBC39931CAA963800622957 /* GitUser.swift in Sources */,
+				BBBC399D1CAAB4A200622957 /* GitJSONParser.swift in Sources */,
+				BBBC399F1CAAB52B00622957 /* GitDataProvider.swift in Sources */,
+				BBBC39971CAA994400622957 /* DataManager.swift in Sources */,
+				BBBC399B1CAAB29900622957 /* GitApiManager.swift in Sources */,
 				BBBC39831CAA924600622957 /* ViewController.swift in Sources */,
+				BBBC39A11CAACDF300622957 /* GitOperations.swift in Sources */,
+				BB24593C1CAB182B0092F8C5 /* Animator.swift in Sources */,
+				BBBC39991CAAB14200622957 /* ChunkManager.swift in Sources */,
+				BB24593A1CAB15BD0092F8C5 /* AvatarPreviewViewController.swift in Sources */,
 				BBBC39811CAA924600622957 /* AppDelegate.swift in Sources */,
+				BB2459381CAB0D170092F8C5 /* ImageManager.swift in Sources */,
+				BBBC39951CAA96C600622957 /* GitUsersDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -250,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHubUsers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.GitHubUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHubUsers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.GitHubUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +356,7 @@
 				BBBC39911CAA924600622957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
